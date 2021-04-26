@@ -12,10 +12,9 @@ const okInfo = [
     type: "list",
     name: "Read",
     message:
-      "Just Simple Information:\n",
+      " Information:\n",
     choices: [
       "❆ Information",
-      "❆ Attention",
       "❆ Warning",
       "❆ License",
       "❆ Me",
@@ -38,16 +37,6 @@ const main = async () => {
         );
         break;
 
-      case "❆ Attention":
-        print(
-          chalk`{bold.green
-  This file was originally changed by officialputuid,
-  if you find this file but you get this file from
-  another source not from my Github, I am not
-  responsible for anything that happens.}`
-        );
-        break;
-
       case "❆ Warning":
         print(
           chalk`{bold.green
@@ -63,7 +52,7 @@ const main = async () => {
           chalk`{bold.green
   MIT License
 
-  Copyright (c) 2021 officialputuid
+  Copyright (c) 2021 ShuBhamg0sain
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -89,12 +78,6 @@ const main = async () => {
         print(
           chalk`{bold.green
   Instagram (https://instagram.com/officialputuid)
-  Youtube   (https://youtube.com/c/officialputuid)
-  Facebook  (https://facebook.con/officialputuid)
-  Twitter   (https://twitter.com/officialputuid)
-  Github    (https://github.com/officialputuid)
-
-  Donation? Just Follow, Like, Share & Comments!}`
         );
         break;
 
@@ -109,4 +92,3 @@ const main = async () => {
 };
 console.log("\n");
 main();
-//by 1dcea8095a18ac73b764c19e40644b52 116 111 111 108 115 105 103  118 51 
