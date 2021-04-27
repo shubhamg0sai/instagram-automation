@@ -41,7 +41,6 @@ const main = async () => {
       case "❆ Attention":
         print(
           chalk`{bold.green
-  This file was originally changed by officialputuid,
   if you find this file but you get this file from
   another source not from my Github, I am not
   responsible for anything that happens.}`
@@ -52,7 +51,7 @@ const main = async () => {
         print(
           chalk`{bold.green
   ⚠ Use tools at your own risk.
-  ⚠ Use this Tool for personal use, not for sale.
+  ⚠ Use this Tool for personal use.
   ⚠ I am not responsible for your account using this tool.
   ⚠ Make sure your account has been verified (Email & Telp).}`
         );
@@ -63,36 +62,30 @@ const main = async () => {
           chalk`{bold.green
   MIT License
 
-  Copyright (c) 2021 officialputuid
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  SOFTWARE.}`
+Copyright (c) 2021 BLACK-KILLER
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.}`
         );
         break;
 
       case "❆ Me":
         print(
           chalk`{bold.green
-  Instagram (https://instagram.com/officialputuid)
-  Youtube   (https://youtube.com/c/officialputuid)
-  Facebook  (https://facebook.con/officialputuid)
-  Twitter   (https://twitter.com/officialputuid)
-  Github    (https://github.com/officialputuid)
+  Instagram (https://instagram.com/shubham_g0sain)
+  Github    (https://github.com/ShuBhamg0sain)
 
   Donation? Just Follow, Like, Share & Comments!}`
         );
@@ -109,4 +102,3 @@ const main = async () => {
 };
 console.log("\n");
 main();
-//by 1dcea8095a18ac73b764c19e40644b52 116 111 111 108 115 105 103  118 51 
