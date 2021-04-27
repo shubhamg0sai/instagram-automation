@@ -1,5 +1,5 @@
 {
-  "name": "toolsig",
+  "name": "instagram-automation",
   "version": "3.0.0",
   "description": "Open Source Instagram Tools",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/officialputuid/toolsig.git"
+    "url": "git+https://github.com/ShuBhamg0sain/instagram-automation.git"
   },
-  "author": "officialputuid",
+  "author": "ShuBhamg0sain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/officialputuid/toolsig/issues"
+    "url": "https://github.com/ShuBhamg0sain/instagram-automation/issues"
   },
-  "homepage": "https://github.com/officialputuid/toolsig#readme",
+  "homepage": "https://github.com/ShuBhamg0sain/instagram-automation#readme",
   "dependencies": {
     "chalk": "^2.4.2",
     "colors": "^1.4.0",
