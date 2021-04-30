@@ -59,7 +59,7 @@ if [ "$N" -eq "1"  ]; then
  echo -e $g 'Please Wait.....\n'
  sleep 0.4
  clear
- chmod +x index.js
+ chmod +x * index.js
  node index.js
  npm i
  clear
