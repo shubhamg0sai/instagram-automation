@@ -1,5 +1,7 @@
 # instagram-automation
-instagram-automation  
+instagram-automation 
+![ ](https://raw.githubusercontent.com/ShuBhamg0sain/instagram-automation/main/us/ps/IMG_20210430_181207.jpg)
+ 
 # installation
 git clone https://github.com/ShuBhamg0sain/instagram-automation.git
 
