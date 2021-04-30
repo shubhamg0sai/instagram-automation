@@ -20,6 +20,8 @@ if [ "$N" -eq "1"  ]; then
  apt install nodejs
  apt install nodejs-lts
  chmod +x * index.js
+
+
  npm i
  npm audit fix
  npm audit
