@@ -162,19 +162,19 @@ elif [ "$N" -eq "2"  ]; then
  cd
  clear
  clear
- echo -e $g 'Please Wait ===+['$p'>              '$g']\'
+ echo -e $g 'Please Wait ===+------------->\'
  sleep 0.4
  clear
- echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ echo -e $g 'Please Wait ===+------------->\'
  sleep 0.4
  clear
- echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
+ echo -e $g 'Please Wait ===+------------->\'
  sleep 0.4
  clear 
- echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
+ echo -e "$g+++++++++>$p[Please Wait]$g<+++++++++"
  sleep 2
  cd
- cd
+ 
  sleep 1
  rm -rf package.json package-lock.json instagram-automation
  rm -rf package.json package-lock.json instagram-automation
