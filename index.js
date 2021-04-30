@@ -32,7 +32,7 @@ const questionTools = [
   "➥ F-L-C -> Location Target",
   "➥ Unfollow All Following",
   "➥ Unfollow Not Followback",
-  "\n",
+  "Exit",
 ];
 
 const menuQuestion = {
