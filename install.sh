@@ -18,7 +18,6 @@ if [ "$N" -eq "1"  ]; then
  sleep 5
  apt install nodejs
  apt install nodejs-lts
- cd
  sleep 1
  chmod +x * index.js
  npm i
