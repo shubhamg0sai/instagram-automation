@@ -1,14 +1,14 @@
 # instagram-automation
 instagram-automation  
 
-pkg install nodejs
+apt install nodejs
 
-pkg install nodejs-lts
+apt install nodejs-lts
 
 git clone https://github.com/ShuBhamg0sain/instagram-automation.git
 
 cd instagram-automation
 
-npm i
+chmod +x install.sh
 
-node index.js
+./install.sh
