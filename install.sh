@@ -53,12 +53,12 @@ elif [ "$N" -eq "2"  ]; then
  sleep 2
  cd
  cd
- sleep 5
- rm -rf instagram-automation
- sleep 8
- rm -rf instagram-automation
- sleep 5
- package.json
+ sleep 1
+ rm -rf package.json package-lock.json instagram-automation
+ sleep 2
+ rm -rf package.json package-lock.json instagram-automation
+ sleep 1
+ rm -rf package.json package-lock.json instagram-automation
  sleep 5
  package-lock.json
  git clone https://github.com/ShuBhamg0sain/instagram-automation.git
