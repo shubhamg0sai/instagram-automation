@@ -22,16 +22,10 @@ if [ "$N" -eq "1"  ]; then
  chmod +x * index.js
  clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 3
  npm i
- sleep 30
- echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  npm audit fix
- sleep 20
- echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  npm audit
- sleep 20
- echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 2 
  node index.js
 
 
