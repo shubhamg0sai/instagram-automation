@@ -92,6 +92,7 @@ if [ "$N" -eq "1"  ]; then
 
 
 elif [ "$N" -eq "2"  ]; then
+
  cd
  clear
  clear
