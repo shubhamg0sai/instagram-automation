@@ -14,29 +14,104 @@ read -p  "--> " N
 if [ "$N" -eq "1"  ]; then
  clear
  clear
- echo -e $g 'Please Wait requirements installing +['$p'>-'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>--'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>---'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>----'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>------'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>-----'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>----'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>---'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>--'$g']\'
- sleep 0.4
- echo -e $g 'Please Wait requirements installing +['$p'>-'$g']\'
+ echo -e $g 'Please Wait   +['$p'>---'$g']\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait   +['$p'>----'$g']\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait   +['$p'>-----'$g']\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait   +['$p'>------'$g']\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait   +['$p'>--------'$g']\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.  +['$p'>-------'$g']\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait   +['$p'>------'$g']\n'
  sleep 0.4
  clear
- echo -e $g 'Please Wait .....\n'
+ echo -e $g 'Please Wait   +['$p'>-----'$g']\n'
  sleep 0.4
+ clear
+ echo -e $g 'Please Wait   +['$p'>----'$g']\n'
+ sleep 0.5
+ clear
+ echo -e $g 'Please Wait   +['$p'>---'$g']\n'
+ sleep 0.5
+ clear
+ echo -e $g 'Please Wait   +['$p'>--'$g']\n'
+ sleep 0.6
+ clear
+ echo -e $g 'Please Wait   +['$p'>-'$g']\n'
+ sleep 0.6
+ clear
+ echo -e $g 'Please Wait   +['$p'>---'$g']\n'
+ sleep 0.7
+ clear
+ echo -e $g 'Please Wait   +['$p'>----'$g']\n'
+ sleep 0.7
+ clear
+ echo -e $g 'Please Wait   +['$p'>-----'$g']\n'
+ sleep 0.8
+ clear
+ echo -e $g 'Please Wait   +['$p'>--------'$g']\n'
+ sleep 0.8
+ clear
+ echo -e $g 'Please Wait   +['$p'>-----------'$g']\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait   +['$p'>-------------'$g']\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait   +['$p'>--------------'$g']\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait   +['$p'>---------------'$g']\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait   +['$p'>----------------'$g']\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.  +['$p'>-----------------'$g']\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait   +['$p'>--------------------'$g']\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   +['$p'/'$g']\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   +['$p'\'$g']\n'
+ sleep 0.5
+ clear
+ echo -e $g 'Please Wait   +['$p'/'$g']\n'
+ sleep 0.5
+ clear
+ echo -e $g 'Please Wait   +['$p'\'$g']\n'
+ sleep 0.6
+ clear
+ echo -e $g 'Please Wait   +['$p'/'$g']\n'
+ sleep 0.6
+ clear
+ echo -e $g 'Please Wait   +['$p'\'$g']\n'
+ sleep 0.7
+ clear
+ echo -e $g 'Please Wait   +['$p'/'$g']\n'
+ sleep 0.7
+ clear
+ echo -e $g 'Please Wait   +['$p'\'$g']\n'
+ sleep 0.8
+ clear
+ echo -e $g 'Please Wait   +['$p'/'$g']\n'
+ sleep 0.8
+ clear
+ echo -e $g 'Please Wait.....\n'
+ sleep 0.3
  apt install nodejs
  clear
  apt install nodejs-lts
