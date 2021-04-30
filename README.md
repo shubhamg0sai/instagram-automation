@@ -9,4 +9,12 @@ chmod +x install.sh
 
 ./install.sh
 # inspire by
-@mustafadalga/Instagram-Bot
+
+https://github.com/mustafadalga/Instagram-Bot
+
+https://github.com/timgrossmann/InstaPy
+
+https://github.com/hobbydevs/InstabotJS
+
+# Some sources code 
+https://hackernoon.com/how-to-create-an-instagram-bot-with-node-js-a289185a7d6f
