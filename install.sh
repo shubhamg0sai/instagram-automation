@@ -14,6 +14,7 @@ read -p  "--> " N
 
 
 if [ "$N" -eq "1"  ]; then
+
  echo -e $g 'Please Wait   >-\n'
  sleep 0.2
  echo -e $g 'Please Wait   >--\n'
@@ -52,6 +53,18 @@ if [ "$N" -eq "1"  ]; then
  sleep 0.4
  clear
  echo -e $g 'Please Wait   >[-----]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[-------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[--------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[---------]\n'
  sleep 0.4
  clear
  apt install nodejs
@@ -118,6 +131,7 @@ if [ "$N" -eq "1"  ]; then
  apt install nodejs-lts
  clear
  chmod +x * index.js
+ node index.js
  clear
  npm i
  clear
@@ -125,12 +139,11 @@ if [ "$N" -eq "1"  ]; then
  clear
  npm audit
  clear
- echo -e $g 'Please Wait.....\n'
- sleep 0.5
  node index.js
 
 
 elif [ "$N" -eq "2"  ]; then
+
  cd
  clear
  echo -e "$g+++++++++>$p[Please Wait]$g<+++++++++"
@@ -148,12 +161,14 @@ elif [ "$N" -eq "2"  ]; then
  
 
 elif [ "$N" -eq "3"  ]; then
+
  clear
  cd insta
  python2 insta.py
 
 
 elif [ "$N" -eq "0"  ]; then
+
  cd
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
  sleep 0.4
