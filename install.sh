@@ -24,17 +24,8 @@ if [ "$N" -eq "1"  ]; then
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 0.4
  npm i
- clear
- echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
- sleep 0.4
  npm audit fix
- clear 
- echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
- sleep 0.4
  npm audit
- clear
- echo -e "$g+++++++++++>[$pWelcome to the new update$p$g]<+++++++++++++"
- sleep 2
  node index.js
 
 
