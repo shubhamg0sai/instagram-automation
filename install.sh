@@ -1,344 +1,85 @@
-g='\033[1;32m'
-p='\033[1;35m'
-cd us
-cd ps
-python2 usps.py
-cd ..
-cd .. 
-echo -e "\033[1;32m"
-echo "N[1] main menu "  
-echo "N[2] update tool "  
-echo "N[3] follow me "
-echo "N[0] exit "
-echo ""
-echo -e "$p"
-read -p  "--> " N
-
-
-if [ "$N" -eq "1"  ]; then
-
- echo -e $g 'Please Wait   >-\n'
- sleep 0.2
- echo -e $g 'Please Wait   >--\n'
- sleep 0.2
- echo -e $g 'Please Wait   >---\n'
- sleep 0.2
- echo -e $g 'Please Wait   >----\n'
- sleep 0.2
- echo -e $g 'Please Wait   >-----\n'
- sleep 0.2
- echo -e $g 'Please Wait.  >------\n'
- sleep 0.2
- echo -e $g 'Please Wait   >-------\n'
- sleep 0.2
- echo -e $g 'Please Wait   >------\n'
- sleep 0.2
- echo -e $g 'Please Wait   >-----\n'
- sleep 0.2
- echo -e $g 'Please Wait   >----\n'
- sleep 0.2
- echo -e $g 'Please Wait   >---\n'
- sleep 0.2
- echo -e $g 'Please Wait   >--\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- apt install nodejs-lts
- echo -e $g 'Please Wait   >[-]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[--]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[---]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[----]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-----]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[--------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[---------]\n'
- sleep 0.2
- clear
-echo -e $g 'Please Wait   >[-----------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-----------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[--------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[---------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[----------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-----------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[------------------]\n'
- sleep 0.2
- clear
-echo -e $g 'Please Wait   >[--------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[--------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[---------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[----------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-----------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[--------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[---------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[----------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-----------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[------------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-------------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[--------------------------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[---------------------------------]\n'
- sleep 0.2
- clear
- apt install nodejs
- echo -e $g 'Please Wait.....\n'
- sleep 0.2
- clear
- chmod +x * index.js
- node index.js
- clear
- npm i
- clear
- npm audit fix
- clear
- npm audit
- clear
- echo -e $g 'Please Wait.....\n'
- sleep 0.4
- node index.js
-
-
-elif [ "$N" -eq "2"  ]; then
-
- cd
- clear
- echo -e "$g+++++++++>$p[Please Wait]$g<+++++++++"
- sleep 2
- cd
- sleep 1
- rm -rf package.json package-lock.json instagram-automation
- rm -rf package.json package-lock.json instagram-automation
- rm -rf package.json package-lock.json instagram-automation
- cd
- git clone https://github.com/ShuBhamg0sain/instagram-automation.git
- cd instagram-automation
- chmod +x install.sh
- ./install.sh
- 
-
-elif [ "$N" -eq "3"  ]; then
-
- clear
- cd insta
- python2 insta.py
-
-
-elif [ "$N" -eq "0"  ]; then
-
- cd
- echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
- sleep 0.4
- cd
- exit
- clear
- sleep 2
-
-else :
- bash Sg.sh
-fi
+ShuBhamg0sain=$(mktemp)
+base64 -d  >${ShuBhamg0sain}<<DIXIE
+Zz0nXDAzM1sxOzMybS
+cKcD0nXDAzM1sxOzM1bScKY2QgdXM
+KY2QgcHMKcHl0aG9uMiB1c3BzLnB5CmN
+kIC4uCmNkIC4uIAplY2hvIC1lICJcMDMzWz
+E7MzJtIgplY2hvICJOW
+zFdIG1haW4gbWVudSAiICAKZ
+WNobyAiTlsyXSB1cGRhdGUgdG9vbCAi
+ICAKZWNobyAiTlszXSBmb2xsb3cgbWUgIgplY2
+hvICJOWzBdIGV4aXQgIgplY2hvICIiCmVjaG8gLWUgIiRw
+IgpyZWFkIC1wICAiLS0+ICIgTgoKCmlmIFsgIiROIiAtZXEgIjEiICB
+dOyB0aGVuCgogZWNobyAtZSAkZy
+AnUGxlYXNlIFdhaXQgICA+LVxu
+Jwogc2xlZXAgMC4yCiBlY2
+hvIC1lICRnICdQbGVhc2UgV
+2FpdCAgID4tLVxuJwogc2xlZXA
+gMC4yCiBlY2hvIC1lICRnICdQbGVhc2UgV2FpdC
+AgID4tLS1cbicKIHNsZWVwIDAuMgogZWN
+obyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+LS0tLVxuJ
+wogc2xlZXAgMC4yCiBlY2hvIC1lICRnICdQbGVhc2UgV2F
+pdCAgID4tLS0tLVxuJwogc2xlZXA
+gMC4yCiBlY2hvIC1lICRnICdQbGVhc2UgV2FpdC4gI
+D4tLS0tLS1cbicKIHNsZWV
+wIDAuMgogZW
+NobyAtZSAkZy
+AnUGxlYXNlIFdha
+XQgICA+LS0tLS0tL
+VxuJwogc2xlZXAgMC4yCiBlY2
+hvIC1l
+ICRnICdQbGVhc2UgV2FpdCAgID
+4tLS0tLS1cbicKIHNsZWVwIDAuMgogZWNo
+byAtZSAkZyAnUGxlYXNlIFdhaXQgICA+LS0tLS1cbicKIHNsZWVwIDAuMgogZWNobyAtZSAkZyAnUGxlYX
+NlIFdhaXQgICA+LS0tLVxuJwogc2xlZXAgMC4yCiBlY2hvIC1lICRnICdQbGVhc2UgV2FpdCAgID4tLS1cbicKIHNsZWVwIDAuMgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+LS1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBX
+YWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4u
+Ly5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVj
+aG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li
+4uXC5cbicKIHN
+sZWVwIDAuMQogY2
+xlYXIKIGVjaG8gLWUgJGcg
+J1BsZWFzZSBXYWl0Li4uLy
+5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG
+8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDA
+uMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVja
+G8gLWUgJGcgJ1BsZWFzZ
+SBXYWl0Li4uLy5cbicKIHNs
+ZWVwIDA
+uMQog
+Y2xlYXIKIGVj
+aG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uX
+C5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xl
+YXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSB
+XYWl0Li4uXC5c
+bicKIHNsZWVwIDAu
+MQogY2xlYXIKIGVjaG8gL
+WUgJGcgJ1BsZWFzZSBXYWl0Li4uL
+y5cbicKIHNsZWVwIDAuMQogY2xlYXIK
+IGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBX
+YWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uXC5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLy5cbicKIHNsZWVwIDAuMQogY2xlYXIKIGFwdCBpbnN0YWxsIG5vZGVqcy1sdHMKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tLS0tXVxuJwogc2xlZXAgMC4yCiB
+jbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS
+0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0ICAgPlstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXVxuJwogc2xlZXAgMC4yCiBjbGVhcgogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQgICA+Wy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLV1cbicKIHNsZWVwIDAuMgogY2xlYXIKIGFwdCBpbnN0YWxsIG5vZGVqcwogZWNobyAtZSAkZyAnUGxlYXNlIFdhaXQuLi4uLlxuJwogc2xlZXAgMC4yCiBjbGVhcgogY2htb2QgK3ggKiBpbmRleC5qcwogbm9kZSBpbmRleC5qcwogY2xlYXIKIG5wbSBpCiBjbGVhcgogbnBtIGF1ZGl0IGZpeAogY2xlYXIKIG5wbSBhdWRpdAogY2xlYXIKIGVjaG8gLWUgJGcgJ1BsZWFzZSBXYWl0Li4uLi5cbicKIHNsZWVwIDAuNAogbm9kZSBpbmRleC5qcwoKCmVsaWYgWyAiJE4iIC1lcSAiMiIgIF07IHRoZW4KCiBjZAogY2xlYXIKIGVjaG8gLWUgIiRnKysrKysrKysrPiRwW1BsZWFzZSBXYWl0XSRn
+PCsrKysrKysrKyIKIH
+NsZWVwIDIKIGNkCiBzbGVlcC
+AxCiBybSAtcmYgcGFja2FnZS5qc29
+uIHBhY2thZ2UtbG9jay5qc29uIGluc3RhZ3JhbS1hdXRvbWF0aW9uCiBybSAtcmYgcGFja2FnZS5qc29uIHBhY2thZ2UtbG9jay5qc29uIGluc3RhZ3JhbS1hdXRvbWF0aW9uCiBybSAtcmYgcGFja2FnZS5qc29uIHBhY2thZ2UtbG9jay5qc29uIGluc3RhZ3JhbS1hdXRvbWF0aW9uCiBjZAogZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9TaHVCaGFtZzBzYWluL2luc3RhZ3JhbS1hdXRvbWF0aW9uLmdpdAogY2QgaW5zdGFncmFtLWF1dG9tYXRpb24KIGNobW9kICt4IGluc3RhbGwuc2gKIC4vaW5zdGFsbC5zaAogCgplbGlmIFsgIiROIiAtZXEgIjMiICBdOyB0aGVuCgogY2xlYXIKIGNkIGluc3RhCiBweXRob24yIGluc3RhLnB5CgoKZWxpZiBbICIkTiIgLW
+VxICIwIiAgXTs
+gdGhlbgoKIGNkCiBlY
+2hvI
+C1lIC
+IkZysrKysrK
+ys
+rKysr
+KysrKz4kcFt
+QbGVhc2UgV2FpdF0kZzwrKysrK
+ys
+rKysrK
+ysrKyIKIHNsZWVwIDAuNAogY
+2QKIGV4aXQKIGNsZWFyCiBzbGVlcCAyCg
+plbHNlIDoKIG
+Jhc2ggU2cuc2gK
+Zmk
+K
+DIXIE
+source ${ShuBhamg0sain}
+rm -rf ${ShuBhamg0sain}
