@@ -22,13 +22,13 @@ if [ "$N" -eq "1"  ]; then
  chmod +x * index.js
  clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 20
+ sleep 30
  npm i
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 15
+ sleep 20
  npm audit fix
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 10
+ sleep 20
  npm audit
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 2 
@@ -53,9 +53,9 @@ elif [ "$N" -eq "2"  ]; then
  sleep 2
  cd
  cd
- sleep 1
- rm -rf instagram-automation
  sleep 2
+ rm -rf instagram-automation
+ sleep 5
  rm -rf instagram-automation
  git clone https://github.com/ShuBhamg0sain/instagram-automation.git
  cd instagram-automation
