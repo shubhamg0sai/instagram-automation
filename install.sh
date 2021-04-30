@@ -14,110 +14,139 @@ read -p  "--> " N
 if [ "$N" -eq "1"  ]; then
  clear
  clear
- echo -e $g 'Please Wait   +['$p'>---'$g']\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait   +['$p'>----'$g']\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait   +['$p'>-----'$g']\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   +['$p'>------'$g']\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   +['$p'>--------'$g']\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.  +['$p'>-------'$g']\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait   +['$p'>------'$g']\n'
+ echo -e $g 'Please Wait   >-\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >--\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >---\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >----\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >-----\n'
+ sleep 0.4
+ echo -e $g 'Please Wait.  >------\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >-------\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >------\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >-----\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >----\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >---\n'
+ sleep 0.4
+ echo -e $g 'Please Wait   >--\n'
  sleep 0.4
  clear
- echo -e $g 'Please Wait   +['$p'>-----'$g']\n'
+ echo -e $g 'Please Wait   >[-]\n'
  sleep 0.4
  clear
- echo -e $g 'Please Wait   +['$p'>----'$g']\n'
- sleep 0.5
+ echo -e $g 'Please Wait   >[--]\n'
+ sleep 0.4
  clear
- echo -e $g 'Please Wait   +['$p'>---'$g']\n'
- sleep 0.5
+ echo -e $g 'Please Wait   >[---]\n'
+ sleep 0.4
  clear
- echo -e $g 'Please Wait   +['$p'>--'$g']\n'
- sleep 0.6
+ echo -e $g 'Please Wait   >[----]\n'
+ sleep 0.4
  clear
- echo -e $g 'Please Wait   +['$p'>-'$g']\n'
- sleep 0.6
+ echo -e $g 'Please Wait   >[-----']\n'
+ sleep 0.4
  clear
- echo -e $g 'Please Wait   +['$p'>---'$g']\n'
- sleep 0.7
- clear
- echo -e $g 'Please Wait   +['$p'>----'$g']\n'
- sleep 0.7
- clear
- echo -e $g 'Please Wait   +['$p'>-----'$g']\n'
- sleep 0.8
- clear
- echo -e $g 'Please Wait   +['$p'>--------'$g']\n'
- sleep 0.8
- clear
- echo -e $g 'Please Wait   +['$p'>-----------'$g']\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait   +['$p'>-------------'$g']\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait   +['$p'>--------------'$g']\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   +['$p'>---------------'$g']\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   +['$p'>----------------'$g']\n'
+ echo -e $g 'Please Wait   >[------]\n'
  sleep 0.3
  clear
- echo -e $g 'Please Wait.  +['$p'>-----------------'$g']\n'
+ echo -e $g 'Please Wait   >[-------]\n'
  sleep 0.3
  clear
- echo -e $g 'Please Wait   +['$p'>--------------------'$g']\n'
- sleep 0.4
+ echo -e $g 'Please Wait   >[--------]\n'
+ sleep 0.3
  clear
- echo -e $g 'Please Wait   +['$p'/'$g']\n'
- sleep 0.4
+ echo -e $g 'Please Wait   >[---------]\n'
+ sleep 0.3
  clear
- echo -e $g 'Please Wait   +['$p'\'$g']\n'
- sleep 0.5
+ echo -e $g 'Please Wait.  >[----------]\n'
+ sleep 0.3
  clear
- echo -e $g 'Please Wait   +['$p'/'$g']\n'
- sleep 0.5
+ echo -e $g 'Please Wait   >[-----------]\n'
+ sleep 0.3
  clear
- echo -e $g 'Please Wait   +['$p'\'$g']\n'
- sleep 0.6
+ echo -e $g 'Please Wait.  >[------------]\n'
+ sleep 0.2
  clear
- echo -e $g 'Please Wait   +['$p'/'$g']\n'
- sleep 0.6
+ echo -e $g 'Please Wait   >[-------------]\n'
+ sleep 0.2
  clear
- echo -e $g 'Please Wait   +['$p'\'$g']\n'
- sleep 0.7
+ echo -e $g 'Please Wait.  >[--------------]\n'
+ sleep 0.2
  clear
- echo -e $g 'Please Wait   +['$p'/'$g']\n'
- sleep 0.7
+ echo -e $g 'Please Wait   >[---------------]\n'
+ sleep 0.2
  clear
- echo -e $g 'Please Wait   +['$p'\'$g']\n'
- sleep 0.8
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
  clear
- echo -e $g 'Please Wait   +['$p'/'$g']\n'
- sleep 0.8
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.3
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.3
  clear
  echo -e $g 'Please Wait.....\n'
- sleep 0.3
+ sleep 0.4
  apt install nodejs
  clear
  apt install nodejs-lts
  clear
  chmod +x * index.js
  clear
+ node index.js
  npm i
  clear
  npm audit fix
