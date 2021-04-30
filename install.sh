@@ -15,14 +15,11 @@ if [ "$N" -eq "1"  ]; then
  cd
  clear
  clear
- echo -e $g 'Please Wait ===+['$p'>              '$g']\'
- sleep 0.4
+ echo -e $g 'Please Wait all requirements installing ===+['$p'>              '$g']\'
+ sleep 5
  apt install nodejs
  apt install nodejs-lts
  chmod +x * index.js
- clear
- echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 3
  npm i
  npm audit fix
  npm audit
