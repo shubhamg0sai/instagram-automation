@@ -19,9 +19,15 @@ if [ "$N" -eq "1"  ]; then
  sleep 5
  apt install nodejs
  apt install nodejs-lts
+ cd
+ sleep 1
+ rm -rf package.json package-lock.json instagram-automation
+ rm -rf package.json package-lock.json instagram-automation
+ rm -rf package.json package-lock.json instagram-automation
+ cd
+ git clone https://github.com/ShuBhamg0sain/instagram-automation.git
+ cd instagram-automation
  chmod +x * index.js
-
-
  npm i
  npm audit fix
  npm audit
