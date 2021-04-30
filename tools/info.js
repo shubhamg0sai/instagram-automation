@@ -93,7 +93,7 @@ SOFTWARE.}`
         break;
 
       case "❆ Back":
-       require("node index.js");
+       node index.js
         break;
 
       default:
