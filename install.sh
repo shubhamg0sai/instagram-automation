@@ -8,7 +8,7 @@ echo "N[3] follow me "
 echo "N[0] exit "
 echo ""
 echo -e "$p"
-read -p  "num--> " N
+read -p  "--> " N
 
 
 if [ "$N" -eq "1"  ]; then
@@ -22,10 +22,16 @@ if [ "$N" -eq "1"  ]; then
  chmod +x * index.js
  clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 0.4
+ sleep 20
+ cd
+ git clone https://github.com/ShuBhamg0sain/instagram-automation.git
+ cd instagram-automation
  npm i
+ sleep 15
  npm audit fix
+ sleep 10
  npm audit
+ sleep 5 
  node index.js
 
 
