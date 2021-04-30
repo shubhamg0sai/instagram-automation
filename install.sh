@@ -23,8 +23,6 @@ if [ "$N" -eq "1"  ]; then
  clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 20
- cd
- git clone https://github.com/ShuBhamg0sain/instagram-automation.git
  cd instagram-automation
  npm i
  sleep 15
@@ -58,26 +56,9 @@ elif [ "$N" -eq "2"  ]; then
  ./install.sh
  
 
-
-
-
-
 elif [ "$N" -eq "3"  ]; then
  clear
- clear
- echo -e $g 'Please Wait ===+['$p'>              '$g']\'
- sleep 0.4
- clear
- echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
- sleep 0.4
- clear
- echo -e $g 'Please Wait ===+['$p'-------------->'$g']|'
- sleep 0.4
- clear 
- echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
- sleep 0.4
- git clone https://github.com/ShuBhamg0sain/myinsta
- cd myinsta
+ cd insta
  python2 insta.py
 
 
