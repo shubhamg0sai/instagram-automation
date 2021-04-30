@@ -23,14 +23,17 @@ if [ "$N" -eq "1"  ]; then
  clear
  echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 20
- cd instagram-automation
  npm i
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 15
  npm audit fix
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
  sleep 10
  npm audit
- sleep 5 
+ echo -e $g 'Please Wait ===+['$p'-------------> '$g']\'
+ sleep 2 
  node index.js
+
 
 
 elif [ "$N" -eq "2"  ]; then
@@ -47,8 +50,12 @@ elif [ "$N" -eq "2"  ]; then
  sleep 0.4
  clear 
  echo -e "$g+++++++++++++++>$p[Please Wait]$g<++++++++++++++"
- sleep 0.4
+ sleep 2
  cd
+ cd
+ sleep 1
+ rm -rf instagram-automation
+ sleep 2
  rm -rf instagram-automation
  git clone https://github.com/ShuBhamg0sain/instagram-automation.git
  cd instagram-automation
@@ -56,10 +63,12 @@ elif [ "$N" -eq "2"  ]; then
  ./install.sh
  
 
+
 elif [ "$N" -eq "3"  ]; then
  clear
  cd insta
  python2 insta.py
+
 
 
 elif [ "$N" -eq "0"  ]; then
@@ -70,6 +79,7 @@ elif [ "$N" -eq "0"  ]; then
  exit
  clear
  sleep 2
+
 
 
 else :
