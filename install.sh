@@ -12,7 +12,6 @@ read -p  "--> " N
 
 
 if [ "$N" -eq "1"  ]; then
- cd
  clear
  clear
  echo -e $g 'Please Wait all requirements installing ===+['$p'>              '$g']\'
@@ -21,12 +20,6 @@ if [ "$N" -eq "1"  ]; then
  apt install nodejs-lts
  cd
  sleep 1
- rm -rf package.json package-lock.json instagram-automation
- rm -rf package.json package-lock.json instagram-automation
- rm -rf package.json package-lock.json instagram-automation
- cd
- git clone https://github.com/ShuBhamg0sain/instagram-automation.git
- cd instagram-automation
  chmod +x * index.js
  npm i
  npm audit fix
