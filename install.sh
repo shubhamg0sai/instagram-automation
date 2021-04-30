@@ -42,6 +42,151 @@ if [ "$N" -eq "1"  ]; then
  echo -e $g 'Please Wait   >--\n'
  sleep 0.2
  clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.1
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.1
+ clear
+ apt install nodejs-lts
  echo -e $g 'Please Wait   >[-]\n'
  sleep 0.2
  clear
@@ -126,154 +271,24 @@ echo -e $g 'Please Wait   >[--------------------]\n'
  echo -e $g 'Please Wait   >[----------------------------]\n'
  sleep 0.2
  clear
- apt install nodejs
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.1
- clear
- echo -e $g 'Please Wait.....................\n'
+ echo -e $g 'Please Wait   >[-----------------------------]\n'
  sleep 0.2
- apt install nodejs-lts
+ clear
+ echo -e $g 'Please Wait   >[------------------------------]\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait   >[-------------------------------]\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait   >[--------------------------------]\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait   >[---------------------------------]\n'
+ sleep 0.2
+ clear
+ apt install nodejs
+ echo -e $g 'Please Wait.....\n'
+ sleep 0.2
  clear
  chmod +x * index.js
  node index.js
@@ -284,7 +299,7 @@ echo -e $g 'Please Wait   >[--------------------]\n'
  clear
  npm audit
  clear
- echo -e $g 'Please Wait.....................\n'
+ echo -e $g 'Please Wait.....\n'
  sleep 0.4
  node index.js
 
