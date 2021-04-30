@@ -93,7 +93,7 @@ SOFTWARE.}`
         break;
 
       case "❆ Back":
-       node index.js
+       node index.js;
         break;
 
       default:
