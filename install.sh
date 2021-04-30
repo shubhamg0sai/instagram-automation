@@ -3,6 +3,8 @@ p='\033[1;35m'
 cd us
 cd ps
 python2 usps.py
+cd ..
+cd .. 
 echo -e "\033[1;32m"
 echo "N[1] main menu "  
 echo "N[2] update tool "  
