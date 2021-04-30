@@ -1,8 +1,10 @@
 g='\033[1;32m'
 p='\033[1;35m'
-clear
+cd us
+cd ps
+python2 usps.py
 echo -e "\033[1;32m"
-echo "N[1] press 1 for main menu "  
+echo "N[1] main menu "  
 echo "N[2] update tool "  
 echo "N[3] follow me "
 echo "N[0] exit "
@@ -54,30 +56,10 @@ if [ "$N" -eq "1"  ]; then
  sleep 0.4
  clear
  apt install nodejs-lts
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
  echo -e $g 'Please Wait.....\n'
  sleep 0.4
  clear
- chmod +x * index.js
- clear
+ chmod +x index.js
  node index.js
  npm i
  clear
@@ -91,20 +73,10 @@ if [ "$N" -eq "1"  ]; then
 
 
 
-elif [ "$N" -eq "2"  ]; then
 
+elif [ "$N" -eq "2"  ]; then
  cd
  clear
- clear
- echo -e $g 'Please Wait ===+------------->\'
- sleep 0.4
- clear
- echo -e $g 'Please Wait ===+------------->\'
- sleep 0.4
- clear
- echo -e $g 'Please Wait ===+------------->\'
- sleep 0.4
- clear 
  echo -e "$g+++++++++>$p[Please Wait]$g<+++++++++"
  sleep 2
  cd
@@ -121,10 +93,12 @@ elif [ "$N" -eq "2"  ]; then
  
 
 
+
 elif [ "$N" -eq "3"  ]; then
  clear
  cd insta
  python2 insta.py
+
 
 
 
@@ -136,7 +110,6 @@ elif [ "$N" -eq "0"  ]; then
  exit
  clear
  sleep 2
-
 
 
 else :
