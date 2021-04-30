@@ -49,12 +49,9 @@ elif [ "$N" -eq "2"  ]; then
  cd
  sleep 1
  rm -rf package.json package-lock.json instagram-automation
- sleep 2
  rm -rf package.json package-lock.json instagram-automation
- sleep 1
  rm -rf package.json package-lock.json instagram-automation
- sleep 5
- package-lock.json
+ cd
  git clone https://github.com/ShuBhamg0sain/instagram-automation.git
  cd instagram-automation
  chmod +x install.sh
