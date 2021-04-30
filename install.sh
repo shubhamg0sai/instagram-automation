@@ -55,12 +55,73 @@ if [ "$N" -eq "1"  ]; then
  echo -e $g 'Please Wait   >[-----]\n'
  sleep 0.4
  clear
- apt install nodejs-lts
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
  echo -e $g 'Please Wait.....\n'
  sleep 0.4
+ apt install nodejs-lts
  clear
  chmod +x * index.js
  node index.js
+ clear
  npm i
  clear
  npm audit fix
