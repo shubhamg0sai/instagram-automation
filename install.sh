@@ -14,16 +14,29 @@ read -p  "--> " N
 if [ "$N" -eq "1"  ]; then
  clear
  clear
- echo -e $g 'Please Wait requirements installing ===+['$p'>----'$g']\'
- sleep 0.2
- echo -e $g 'Please Wait requirements installing ===+['$p'>--------'$g']\'
- sleep 0.2
- echo -e $g 'Please Wait requirements installing ===+['$p'>------------'$g']\'
- sleep 0.2
- echo -e $g 'Please Wait all requirements installing ===+['$p'>------------'$g']\'
- sleep 0.2
- echo -e $g 'Please Wait all requirements installing ===+['$p'>---------------'$g']\'
- sleep 0.3
+ echo -e $g 'Please Wait requirements installing +['$p'>-'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>--'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>---'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>----'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>------'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>-----'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>----'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>---'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>--'$g']\'
+ sleep 0.4
+ echo -e $g 'Please Wait requirements installing +['$p'>-'$g']\'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait .....\n'
+ sleep 0.4
  apt install nodejs
  clear
  apt install nodejs-lts
@@ -36,7 +49,7 @@ if [ "$N" -eq "1"  ]; then
  clear
  npm audit
  clear
- echo -e $g 'Please Wait all requirements installing ===+['$p'>-----'$g']\'
+ echo -e $g 'Please Wait.....\n'
  sleep 0.5
  node index.js
 
