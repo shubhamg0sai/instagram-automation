@@ -19,7 +19,7 @@ const okInfo = [
       "❆ Warning",
       "❆ License",
       "❆ Me",
-      "\n",
+      "❆ Exit",
     ],
   },
 ];
