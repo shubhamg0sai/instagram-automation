@@ -19,6 +19,7 @@ const okInfo = [
       "❆ Warning",
       "❆ License",
       "❆ Me",
+
       "❆ Exit",
     ],
   },
@@ -94,7 +95,7 @@ SOFTWARE.}`
       default:
         console.log(
           "\n ERROR:".red.bold,
-          "Aw, Snap! Something went wrong while displaying this tool!\n".green
+          ". Thanks for using this tool!\n".green
             .bold
         );
     }
