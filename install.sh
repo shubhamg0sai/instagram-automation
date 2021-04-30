@@ -12,8 +12,6 @@ read -p  "--> " N
 
 
 if [ "$N" -eq "1"  ]; then
- clear
- clear
  echo -e $g 'Please Wait   >-\n'
  sleep 0.4
  echo -e $g 'Please Wait   >--\n'
@@ -55,72 +53,7 @@ if [ "$N" -eq "1"  ]; then
  echo -e $g 'Please Wait   >[-----']\n'
  sleep 0.4
  clear
- echo -e $g 'Please Wait   >[------]\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait   >[-------]\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait   >[--------]\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait   >[---------]\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.  >[----------]\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait   >[-----------]\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.  >[------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[-------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait.  >[--------------]\n'
- sleep 0.2
- clear
- echo -e $g 'Please Wait   >[---------------]\n'
- sleep 0.2
  apt install nodejs-lts
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait...\.\n'
- sleep 0.3
- clear
- echo -e $g 'Please Wait.../.\n'
- sleep 0.3
  clear
  echo -e $g 'Please Wait...\.\n'
  sleep 0.3
