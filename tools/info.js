@@ -19,7 +19,6 @@ const okInfo = [
       "❆ Warning",
       "❆ License",
       "❆ Me",
-      "❆ Back",
       "❆ Exit",
     ],
   },
@@ -90,10 +89,6 @@ SOFTWARE.}`
 
   Donation? Just Follow, Like, Share & Comments!}`
         );
-        break;
-
-      case "❆ Back":
-       node index.js;
         break;
 
       default:
