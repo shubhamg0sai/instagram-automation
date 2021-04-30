@@ -69,6 +69,33 @@ if [ "$N" -eq "1"  ]; then
  echo -e $g 'Please Wait   >[---------]\n'
  sleep 0.4
  clear
+echo -e $g 'Please Wait   >[-----------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[-----------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[------------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[-------------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[--------------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[---------------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[----------------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[-----------------]\n'
+ sleep 0.4
+ clear
+ echo -e $g 'Please Wait   >[------------------]\n'
+ sleep 0.4
+ clear
  apt install nodejs
  echo -e $g 'Please Wait.../.\n'
  sleep 0.2
@@ -130,6 +157,20 @@ if [ "$N" -eq "1"  ]; then
  echo -e $g 'Please Wait.../.\n'
  sleep 0.2
  clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait...\.\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait.../.\n'
+ sleep 0.2
+ clear
+ echo -e $g 'Please Wait.....................\n'
+ sleep 0.2
  apt install nodejs-lts
  clear
  chmod +x * index.js
@@ -141,6 +182,8 @@ if [ "$N" -eq "1"  ]; then
  clear
  npm audit
  clear
+ echo -e $g 'Please Wait.....................\n'
+ sleep 0.4
  node index.js
 
 
