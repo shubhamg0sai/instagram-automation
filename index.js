@@ -18,28 +18,27 @@ for (var k in interfaces) {
 //DETECT IP *END!
 const questionTools = [
   "➥ Information",
-  "➥ Bot Like Timeline",
-  "➥ Bot Like Target User",
+  "➥ LT->  Like Timeline",
+  "➥ LTU-> Like Target User",
+  "➥ DAP-> Delete all Post/Photo",
 
-  "➥ Mass Delete Post/Photo",
-  "➥ F-L -> Followers Target",
-  "➥ L-C -> Followers Target",
+  "➥ F-L-> Followers Target",
+  "➥ L-C-> Followers Target",
+  "➥ F-L-C-> Followers Target",
+  "➥ F-L-C-> Followers Target [BETA]",
+  "➥ F-L-C-> Followers Target v2",
+  "➥ F-L-DM-> Followers Target",
+  "➥ F-L-DM-> Followers Target [BETA]",
 
-  "➥ F-L-C -> Followers Target",
-  "➥ F-L-C -> Followers Target [BETA]",
-  "➥ F-L-C -> Followers Target v2",
-
-  "➥ F-L-DM -> Followers Target",
-  "➥ F-L-DM -> Followers Target [BETA]",
-
-  "➥ HTCLF-> Hashtag target comments,like,follow",
+  "➥ HTCLF-> Hashtag target all",
   "➥ HTC-> Hashtag target comments",
   "➥ HTL-> Hashtag target like",
   "➥ HTF-> Hashtag target follow",
-  "➥ -> Location Target",
-  "➥ Unfollow All Following",
-  "➥ Unfollow Not Followback",
-  "➥ Exit",
+  "➥ LTCLF-> Location Target all",
+
+  "➥UAF-> Unfollow All Following",
+  "➥UNB-> Unfollow Not Followback",
+  "➥-> Exit",
 ];
 
 const menuQuestion = {
