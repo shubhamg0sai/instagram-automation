@@ -20,14 +20,18 @@ const questionTools = [
   "➥ Information",
   "➥ Bot Like Timeline",
   "➥ Bot Like Target User",
+
   "➥ Mass Delete Post/Photo",
   "➥ F-L -> Followers Target",
   "➥ L-C -> Followers Target",
+
   "➥ F-L-C -> Followers Target",
   "➥ F-L-C -> Followers Target [BETA]",
   "➥ F-L-C -> Followers Target v2",
+
   "➥ F-L-DM -> Followers Target",
   "➥ F-L-DM -> Followers Target [BETA]",
+
   "➥ HTCLF-> Hashtag target comments,like,follow",
   "➥ HTC-> Hashtag target comments",
   "➥ HTL-> Hashtag target like",
@@ -62,9 +66,16 @@ const main = async () => {
     choice == questionTools[10] && require("./tools/fftdmbetaauto.js");
     choice == questionTools[11] && require("./tools/fhtauto.js");
     choice == questionTools[12] && require("./tools/fltauto.js");
-    choice == questionTools[13] && require("./tools/unfollowall.js");
+
+    choice == questionTools[12] && require("./tools/HTCLF.js");
+    choice == questionTools[13] && require("./tools/HTC.js"); 
+    choice == questionTools[14] && require("./tools/HTL.js");
+    choice == questionTools[15] && require("./tools/HTF.js");
+
+    choice == questionTools[14] && require("./tools/unfollow.js");
     choice == questionTools[14] && require("./tools/unfollnotfollback.js");
-    choice == questionTools[15] && process.exit();
+
+    choice == questionTools[17] && process.exit();
   } catch (err) {
     print(err, "err");
   }
