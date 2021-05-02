@@ -62,12 +62,11 @@ const main = async () => {
     choice == questionTools[10] && require("./tools/fftdmbetaauto.js");
     choice == questionTools[11] && require("./tools/HTCLF.js");
     choice == questionTools[12] && require("./tools/HTC.js");
-    choice == questionTools[13] && require("./tools/HTCLF.js");
-    choice == questionTools[14] && require("./tools/HTC.js"); 
-    choice == questionTools[15] && require("./tools/HTL.js");
-    choice == questionTools[16] && require("./tools/HTF.js");
-    choice == questionTools[17] && require("./tools/UAF.js");
-    choice == questionTools[18] && require("./tools/UNB.js");
+    choice == questionTools[13] && require("./tools/HTL.js");
+    choice == questionTools[14] && require("./tools/HTF.js"); 
+    choice == questionTools[15] && require("./tools/LTCLF.js");
+    choice == questionTools[16] && require("./tools/UAF.js");
+    choice == questionTools[17] && require("./tools/UNB.js");
     choice == questionTools[19] && process.exit();
   } catch (err) {
     print(err, "err");
