@@ -17,28 +17,25 @@ for (var k in interfaces) {
 }
 //DETECT IP *END!
 const questionTools = [
-  "➥ Information",
-  "➥ LT->  Like Timeline",
-  "➥ LTU-> Like Target User",
-  "➥ DAP-> Delete all Post/Photo",
-
-  "➥ F-L-> Followers Target",
-  "➥ L-C-> Followers Target",
-  "➥ F-L-C-> Followers Target",
-  "➥ F-L-C-> Followers Target [BETA]",
-  "➥ F-L-C-> Followers Target v2",
-  "➥ F-L-DM-> Followers Target",
-  "➥ F-L-DM-> Followers Target [BETA]",
-
-  "➥ HTCLF-> Hashtag target all",
-  "➥ HTC-> Hashtag target comments",
-  "➥ HTL-> Hashtag target like",
-  "➥ HTF-> Hashtag target follow",
-  "➥ LTCLF-> Location Target all",
-
+  "➥Information",
+  "➥LT->  Like Timeline",
+  "➥LTU-> Like Target User",
+  "➥DAP-> Delete all Post/Photo",
+  "➥F-L-> Followers Target",
+  "➥L-C-> Followers Target",
+  "➥F-L-C-> Followers Target",
+  "➥F-L-C-> Followers Target [BETA]",
+  "➥F-L-C-> Followers Target v2",
+  "➥F-L-DM-> Followers Target",
+  "➥F-L-DM-> Followers Target [BETA]",
+  "➥HTCLF-> Hashtag target all",
+  "➥HTC-> Hashtag target comments",
+  "➥HTL-> Hashtag target like",
+  "➥HTF-> Hashtag target follow",
+  "➥LTCLF-> Location Target all",
   "➥UAF-> Unfollow All Following",
   "➥UNB-> Unfollow Not Followback",
-  "➥-> Exit",
+  "➥EXIT->",
 ];
 
 const menuQuestion = {
@@ -53,9 +50,9 @@ const main = async () => {
   try {
     const { choice } = await inquirer.prompt(menuQuestion);
     choice == questionTools[0] && require("./tools/info.js");
-    choice == questionTools[1] && require("./tools/liketimeline.js");
-    choice == questionTools[2] && require("./tools/liketarget.js");
-    choice == questionTools[3] && require("./tools/delallmedia.js");
+    choice == questionTools[1] && require("./tools/LT.js");
+    choice == questionTools[2] && require("./tools/LTU.js");
+    choice == questionTools[3] && require("./tools/DAP.js");
     choice == questionTools[4] && require("./tools/flonly.js");
     choice == questionTools[5] && require("./tools/lconly.js");
     choice == questionTools[6] && require("./tools/fftauto.js");
@@ -63,18 +60,15 @@ const main = async () => {
     choice == questionTools[8] && require("./tools/fftautov2.js");
     choice == questionTools[9] && require("./tools/fftdmauto.js");
     choice == questionTools[10] && require("./tools/fftdmbetaauto.js");
-    choice == questionTools[11] && require("./tools/fhtauto.js");
-    choice == questionTools[12] && require("./tools/fltauto.js");
-
-    choice == questionTools[12] && require("./tools/HTCLF.js");
-    choice == questionTools[13] && require("./tools/HTC.js"); 
-    choice == questionTools[14] && require("./tools/HTL.js");
-    choice == questionTools[15] && require("./tools/HTF.js");
-
-    choice == questionTools[14] && require("./tools/unfollow.js");
-    choice == questionTools[14] && require("./tools/unfollnotfollback.js");
-
-    choice == questionTools[17] && process.exit();
+    choice == questionTools[11] && require("./tools/HTCLF.js");
+    choice == questionTools[12] && require("./tools/HTC.js");
+    choice == questionTools[13] && require("./tools/HTCLF.js");
+    choice == questionTools[14] && require("./tools/HTC.js"); 
+    choice == questionTools[15] && require("./tools/HTL.js");
+    choice == questionTools[16] && require("./tools/HTF.js");
+    choice == questionTools[17] && require("./tools/UAF.js");
+    choice == questionTools[18] && require("./tools/UNB.js");
+    choice == questionTools[19] && process.exit();
   } catch (err) {
     print(err, "err");
   }
