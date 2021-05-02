@@ -28,11 +28,14 @@ const questionTools = [
   "➥ F-L-C -> Followers Target v2",
   "➥ F-L-DM -> Followers Target",
   "➥ F-L-DM -> Followers Target [BETA]",
-  "➥ F-L-C -> Hashtag Target",
-  "➥ F-L-C -> Location Target",
+  "➥ HTCLF-> Hashtag target comments,like,follow",
+  "➥ HTC-> Hashtag target comments",
+  "➥ HTL-> Hashtag target like",
+  "➥ HTF-> Hashtag target follow",
+  "➥ -> Location Target",
   "➥ Unfollow All Following",
   "➥ Unfollow Not Followback",
-  "Exit",
+  "➥ Exit",
 ];
 
 const menuQuestion = {
