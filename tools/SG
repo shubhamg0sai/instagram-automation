@@ -118,14 +118,14 @@ const {
       const id = await ig.getIdByUsername(
         targetarray[Math.floor(Math.random() * targetarray.length)].trim("")
       );
-      const targetFollowers = await ig.feed.Following(id);
+      const targetFollowing = await ig.feed.Following(id);
       const usertargetfrom = await ig.userInfo(id);
-      let items = await targetFollowers.items();
+      let items = await targetFollowing.items();
       items = _.chunk(items, perExec);
 
       await Promise.all(
         items[Math.floor(Math.random() * items.length)].map(
-          async (follower) => {
+          async (following) => {
             const status = await ig.friendshipStatus(follower.pk);
             if (
               !follower.is_private &&
@@ -138,7 +138,7 @@ const {
               const msg = text[Math.floor(Math.random() * text.length)];
               if (lastMedia.length != 0 && lastMedia[0].pk) {
                 const task = [
-                  ig.follow(follower.pk),
+                  ig.following(follower.pk),
                   ig.like(lastMedia[0].pk),
                   ig.sendDirectMessage(follower.pk, msg),
                 ];
