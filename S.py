@@ -26,7 +26,7 @@ elif inp == 3:
     file = input("enter a file to encode into zlib\n")
     f = open(file)
     sample_string = f.read()
-    zlib_string = zlib.compress(sample_string)
+    zlib_string = zlib.compress(sample_string.encode())
     print(f"Encoded string: {zlib_string}")
 
 elif inp == 4:
