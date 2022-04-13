@@ -1,7 +1,7 @@
 # instagram-automation
 # increase instagram followers
 [![boost followers ](https://img.shields.io/badge/BOOST-FOLLOWERS-red?style=for-the-badge&logo=instagram)](https://t.me/boost_instagramfollowers)
-Instagram account
+
 
 
 
